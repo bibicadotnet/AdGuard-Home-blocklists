@@ -1,4 +1,4 @@
-! Title: [BIBICA.NET] CocCoc & MSN Domains
+! Title: CocCoc & MSN Domains
 ! Description: Chặn các domain của CocCoc và MSN
 ! Version: 1.0
 ! Homepage: https://github.com/bibicadotnet/AdGuard-Home-blocklists
