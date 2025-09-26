@@ -9,3 +9,7 @@
 ! CocCoc Domains (chặn tất cả subdomain)
 ||coccoc.com^
 ||qccoccocmedia.vn^
+
+! ROPHIM
+||robong.net^
+||finallygotthexds.site^
