@@ -1,0 +1,30 @@
+services:
+  caddy:
+    image: caddy:2.10.2-alpine
+    container_name: caddy
+    restart: always
+    volumes:
+      - ./domain-config:/domain-config
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./caddy_data:/data
+      - ./caddy_config:/config
+    ports:
+      - 80:80
+      - 443:443
+      - 443:443/udp
+
+  adguardhome:
+    image: adguard/adguardhome
+    container_name: adguardhome
+    restart: always
+    ports:
+      - 53:53/tcp
+      - 53:53/udp
+      - 3000:3000/tcp
+      - 8181:80/tcp
+      - 8443:443/tcp
+      - 853:853/tcp
+    volumes:
+      - ./adguard/work:/opt/adguardhome/work
+      - ./adguard/config:/opt/adguardhome/conf
+      - ./caddy_data:/caddy_data:ro
