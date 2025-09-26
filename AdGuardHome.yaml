@@ -5,8 +5,8 @@ http:
   address: 0.0.0.0:80
   session_ttl: 720h
 users:
-  - name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  - name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 auth_attempts: 5
 block_auth_min: 15
 http_proxy: ""
@@ -16,16 +16,19 @@ dns:
   bind_hosts:
     - 0.0.0.0
   port: 53
-  anonymize_client_ip: false
-  ratelimit: 0
+  anonymize_client_ip: true
+  ratelimit: 20
   ratelimit_subnet_len_ipv4: 24
   ratelimit_subnet_len_ipv6: 56
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
     - 1.1.1.1
+    - 1.0.0.1
     - 8.8.8.8
+    - 8.8.4.4
     - '[/*.vn/] 8.8.8.8'
+    - '[/*.com.vn/] 8.8.8.8'
     - '# Google'
     - '[/*.google.com/] 8.8.8.8'
     - '[/*.google.com.vn/] 8.8.8.8'
@@ -57,8 +60,6 @@ dns:
     - '[/*.akamai.net/] 208.67.222.222'
     - '[/*.akamaiedge.net/] 208.67.222.222'
     - '[/*.akadns.net/] 208.67.222.222'
-    - '[/*.akamai.net/] 208.67.222.222'
-    - '[/*.akamaiedge.net/] 208.67.222.222'
     - '[/*.akamaihd.net/] 208.67.222.222'
     - '[/*.akamaiorigin.net/] 208.67.222.222'
     - '[/*.akamaized.net/] 208.67.222.222'
@@ -85,10 +86,10 @@ dns:
     - 127.0.0.0/8
     - ::1/128
   cache_enabled: true
-  cache_size: 4194304
-  cache_ttl_min: 1600
-  cache_ttl_max: 14400
-  cache_optimistic: false
+  cache_size: 67108864
+  cache_ttl_min: 300
+  cache_ttl_max: 10800
+  cache_optimistic: true
   bogus_nxdomain: []
   aaaa_disabled: false
   enable_dnssec: false
