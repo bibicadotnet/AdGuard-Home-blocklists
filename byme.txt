@@ -1,5 +1,5 @@
 ! Title: CocCoc & MSN Domains
-! Description: Chặn các domain của CocCoc và MSN
+! Description: Chặn các domain CocCoc, MSN và 1 số trang cá nhân
 ! Version: 1.0
 ! Homepage: https://github.com/bibicadotnet/AdGuard-Home-blocklists
 
