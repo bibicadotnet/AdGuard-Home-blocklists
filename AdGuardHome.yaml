@@ -5,8 +5,8 @@ http:
   address: 0.0.0.0:80
   session_ttl: 720h
 users:
-  - name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  - name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 auth_attempts: 5
 block_auth_min: 15
 http_proxy: ""
@@ -24,47 +24,11 @@ dns:
   refuse_any: true
   upstream_dns:
     - 1.1.1.1
-    - 1.0.0.1
     - 8.8.8.8
-    - 8.8.4.4
-    - '[/*.vn/] 8.8.8.8'
-    - '[/*.com.vn/] 8.8.8.8'
-    - '# Google'
-    - '[/*.google.com/] 8.8.8.8'
-    - '[/*.google.com.vn/] 8.8.8.8'
-    - '[/*.gstatic.com/] 8.8.8.8'
-    - '[/*.googleapis.com/] 8.8.8.8'
-    - '[/*.googleusercontent.com/] 8.8.8.8'
-    - '[/*.g.doubleclick.net/] 8.8.8.8'
-    - '[/*.doubleclick.net/] 8.8.8.8'
-    - '[/*.googlesyndication.com/] 8.8.8.8'
-    - '[/*.googletagservices.com/] 8.8.8.8'
-    - '[/*.googleadservices.com/] 8.8.8.8'
-    - '[/*.ytimg.com/] 8.8.8.8'
-    - '[/*.googlevideo.com/] 8.8.8.8'
-    - '[/*.youtube.com/] 8.8.8.8'
-    - '[/*.youtu.be/] 8.8.8.8'
-    - '[/*.firebaseio.com/] 8.8.8.8'
-    - '[/*.firebase.google.com/] 8.8.8.8'
-    - '[/*.android.com/] 8.8.8.8'
-    - '[/*.play.google.com/] 8.8.8.8'
-    - '[/*.dl.google.com/] 8.8.8.8'
-    - '[/*.fonts.googleapis.com/] 8.8.8.8'
-    - '[/*.fonts.gstatic.com/] 8.8.8.8'
-    - '[/*.recaptcha.net/] 8.8.8.8'
-    - '[/*.safebrowse.googleapis.com/] 8.8.8.8'
-    - '[/*.g.co/] 8.8.8.8'
-    - '[/*.goo.gl/] 8.8.8.8'
-    - '[/*.shopee.vn/] 208.67.222.222'
-    - '[/*.shopeemobile.com/] 208.67.222.222'
-    - '[/*.akamai.net/] 208.67.222.222'
-    - '[/*.akamaiedge.net/] 208.67.222.222'
-    - '[/*.akadns.net/] 208.67.222.222'
-    - '[/*.akamaihd.net/] 208.67.222.222'
-    - '[/*.akamaiorigin.net/] 208.67.222.222'
-    - '[/*.akamaized.net/] 208.67.222.222'
-    - '[/*.edgekey.net/] 208.67.222.222'
-    - '[/*.edgesuite.net/] 208.67.222.222'
+    - 156.154.70.5
+    - 45.90.28.230
+    - 199.85.127.10
+    - 156.154.71.22
   upstream_dns_file: ""
   bootstrap_dns:
     - 1.1.1.1
@@ -88,13 +52,13 @@ dns:
   cache_enabled: true
   cache_size: 67108864
   cache_ttl_min: 300
-  cache_ttl_max: 10800
+  cache_ttl_max: 1800
   cache_optimistic: true
   bogus_nxdomain: []
   aaaa_disabled: false
   enable_dnssec: false
   edns_client_subnet:
-    custom_ip: ""
+    custom_ip: 14.191.232.232
     enabled: true
     use_custom: false
   max_goroutines: 300
@@ -151,10 +115,6 @@ filters:
     name: AdGuard DNS Popup Hosts filter
     id: 1758866587
   - enabled: true
-    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt
-    name: OISD Blocklist Small
-    id: 1758866588
-  - enabled: true
     url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_16.txt
     name: 'VNM: ABPVN List'
     id: 1758866589
@@ -162,8 +122,21 @@ filters:
     url: https://raw.githubusercontent.com/bibicadotnet/AdGuard-Home-blocklists/refs/heads/main/byme.txt
     name: '[BIBICA.NET] CocCoc & MSN Domains'
     id: 1758866590
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt
+    name: OISD Blocklist Small
+    id: 1758886128
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
+    name: AdGuard Mobile Ads filter
+    id: 1758886764
+  - enabled: true
+    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
+    name: AdGuard Social Media filter
+    id: 1758886765
 whitelist_filters: []
-user_rules: []
+user_rules:
+  - ""
 dhcp:
   enabled: false
   interface_name: ""
