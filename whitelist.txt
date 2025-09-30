@@ -1,0 +1,6 @@
+! Title: BIBICA.NET Allowlist
+! Description: Whitelist các domain thông dụng và umami.is để tránh bị block nhầm
+! Version: 1.0
+! Homepage: https://github.com/bibicadotnet/AdGuard-Home-allowlists
+
+@@||umami.is^
