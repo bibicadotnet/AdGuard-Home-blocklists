@@ -5,8 +5,8 @@ http:
   address: 0.0.0.0:80
   session_ttl: 720h
 users:
-  - name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  - name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 auth_attempts: 5
 block_auth_min: 15
 http_proxy: ""
@@ -16,19 +16,327 @@ dns:
   bind_hosts:
     - 0.0.0.0
   port: 53
-  anonymize_client_ip: true
+  anonymize_client_ip: false
   ratelimit: 20
   ratelimit_subnet_len_ipv4: 24
   ratelimit_subnet_len_ipv6: 56
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
+    - '# Default DNS'
     - 1.1.1.1
-    - 8.8.8.8
-    - 156.154.70.5
-    - 45.90.28.230
-    - 199.85.127.10
-    - 156.154.71.22
+    - '# ============================================'
+    - '# GOOGLE ECOSYSTEM'
+    - '# ============================================'
+    - '# Google Core Services'
+    - '[/*.google.com/]8.8.8.8'
+    - '[/*.google.com.vn/]8.8.8.8'
+    - '[/*.gstatic.com/]8.8.8.8'
+    - '[/*.googleapis.com/]8.8.8.8'
+    - '[/*.googleusercontent.com/]8.8.8.8'
+    - '[/*.googlevideo.com/]8.8.8.8'
+    - '[/*.youtube.com/]8.8.8.8'
+    - '[/*.youtu.be/]8.8.8.8'
+    - '[/*.ytimg.com/]8.8.8.8'
+    - '[/*.android.com/]8.8.8.8'
+    - '[/*.gmail.com/]8.8.8.8'
+    - '[/*.googlemail.com/]8.8.8.8'
+    - '[/*.googledrive.com/]8.8.8.8'
+    - '[/*.blogspot.com/]8.8.8.8'
+    - '[/*.blogger.com/]8.8.8.8'
+    - '# Google Ads & Analytics'
+    - '[/*.doubleclick.net/]8.8.8.8'
+    - '[/*.googlesyndication.com/]8.8.8.8'
+    - '[/*.googletagservices.com/]8.8.8.8'
+    - '[/*.googleadservices.com/]8.8.8.8'
+    - '[/*.googletagmanager.com/]8.8.8.8'
+    - '[/*.googleanalytics.com/]8.8.8.8'
+    - '# Google Infrastructure'
+    - '[/*.gvt1.com/]8.8.8.8'
+    - '[/*.gvt2.com/]8.8.8.8'
+    - '[/*.gvt3.com/]8.8.8.8'
+    - '[/*.ggpht.com/]8.8.8.8'
+    - '[/*.gstatic.cn/]8.8.8.8'
+    - '# Google Domains & Services'
+    - '[/*.googleblog.com/]8.8.8.8'
+    - '[/*.googlecode.com/]8.8.8.8'
+    - '[/*.googlecommerce.com/]8.8.8.8'
+    - '[/*.googlehosted.com/]8.8.8.8'
+    - '[/*.googletravelpartner.com/]8.8.8.8'
+    - '[/*.googlezip.net/]8.8.8.8'
+    - '[/*.googledns.com/]8.8.8.8'
+    - '[/*.googledomains.com/]8.8.8.8'
+    - '[/*.googlesource.com/]8.8.8.8'
+    - '[/*.g.co/]8.8.8.8'
+    - '[/*.goo.gl/]8.8.8.8'
+    - '# Google Web Platform'
+    - '[/*.recaptcha.net/]8.8.8.8'
+    - '[/*.ampproject.org/]8.8.8.8'
+    - '[/*.ampproject.net/]8.8.8.8'
+    - '# Google Open Source Projects'
+    - '[/*.chromium.org/]8.8.8.8'
+    - '[/*.polymer-project.org/]8.8.8.8'
+    - '[/*.tensorflow.org/]8.8.8.8'
+    - '[/*.tfhub.dev/]8.8.8.8'
+    - '[/*.web.dev/]8.8.8.8'
+    - '[/*.webrtc.org/]8.8.8.8'
+    - '[/*.getoutline.org/]8.8.8.8'
+    - '[/*.withgoogle.com/]8.8.8.8'
+    - '# Google Acquisitions'
+    - '[/*.firebaseio.com/]8.8.8.8'
+    - '[/*.waze.com/]8.8.8.8'
+    - '[/*.withyoutube.com/]8.8.8.8'
+    - '[/*.googletv.com/]8.8.8.8'
+    - '[/*.googlefiber.net/]8.8.8.8'
+    - '# ============================================'
+    - '# META / FACEBOOK ECOSYSTEM'
+    - '# ============================================'
+    - '[/*.facebook.com/]8.8.8.8'
+    - '[/*.fbcdn.net/]8.8.8.8'
+    - '[/*.fbcdn.com/]8.8.8.8'
+    - '[/*.fb.com/]8.8.8.8'
+    - '[/*.fbsbx.com/]8.8.8.8'
+    - '[/*.thefacebook.com/]8.8.8.8'
+    - '[/*.instagram.com/]8.8.8.8'
+    - '[/*.cdninstagram.com/]8.8.8.8'
+    - '[/*.threads.net/]8.8.8.8'
+    - '[/*.whatsapp.com/]8.8.8.8'
+    - '[/*.whatsapp.net/]8.8.8.8'
+    - '[/*.messenger.com/]8.8.8.8'
+    - '[/*.oculus.com/]8.8.8.8'
+    - '[/*.oculuscdn.com/]8.8.8.8'
+    - '[/*.oculusvr.com/]8.8.8.8'
+    - '# ============================================'
+    - '# TENCENT / WECHAT ECOSYSTEM'
+    - '# ============================================'
+    - '[/*.qq.com/]8.8.8.8'
+    - '[/*.gtimg.com/]8.8.8.8'
+    - '[/*.weixin.qq.com/]8.8.8.8'
+    - '[/*.myqcloud.com/]8.8.8.8'
+    - '[/*.tencent.com/]8.8.8.8'
+    - '[/*.qpic.cn/]8.8.8.8'
+    - '[/*.qcloud.com/]8.8.8.8'
+    - '# ============================================'
+    - '# BYTEDANCE / TIKTOK ECOSYSTEM'
+    - '# ============================================'
+    - '# TikTok (International)'
+    - '[/*.tiktok.com/]8.8.8.8'
+    - '[/*.tiktokcdn.com/]8.8.8.8'
+    - '[/*.tiktokv.com/]8.8.8.8'
+    - '[/*.tik-tokapi.com/]8.8.8.8'
+    - '[/*.tik-tokcdn.com/]8.8.8.8'
+    - '[/*.musical.ly/]8.8.8.8'
+    - '[/*.muscdn.com/]8.8.8.8'
+    - '# Douyin (China)'
+    - '[/*.douyin.com/]8.8.8.8'
+    - '[/*.douyincdn.com/]8.8.8.8'
+    - '[/*.douyinstatic.com/]8.8.8.8'
+    - '[/*.douyinpic.com/]8.8.8.8'
+    - '[/*.douyinvod.com/]8.8.8.8'
+    - '[/*.douyinliving.com/]8.8.8.8'
+    - '[/*.amemv.com/]8.8.8.8'
+    - '# ByteDance Infrastructure'
+    - '[/*.byteoversea.com/]8.8.8.8'
+    - '[/*.ibyteimg.com/]8.8.8.8'
+    - '[/*.bytefcdn-oversea.com/]8.8.8.8'
+    - '[/*.bytefcdn.com/]8.8.8.8'
+    - '[/*.bytedance.com/]8.8.8.8'
+    - '[/*.bytedns.net/]8.8.8.8'
+    - '[/*.snssdk.com/]8.8.8.8'
+    - '[/*.volcengine.com/]8.8.8.8'
+    - '# Toutiao (ByteDance News)'
+    - '[/*.toutiao.com/]8.8.8.8'
+    - '[/*.toutiaocdn.com/]8.8.8.8'
+    - '# ============================================'
+    - '# ALIBABA ECOSYSTEM'
+    - '# ============================================'
+    - '# Alibaba E-Commerce'
+    - '[/*.alibaba.com/]8.8.8.8'
+    - '[/*.alicdn.com/]8.8.8.8'
+    - '[/*.alicdn.net/]8.8.8.8'
+    - '[/*.taobao.com/]8.8.8.8'
+    - '[/*.tmall.com/]8.8.8.8'
+    - '[/*.aliexpress.com/]8.8.8.8'
+    - '[/*.alipay.com/]8.8.8.8'
+    - '# Alibaba Cloud / Aliyun'
+    - '[/*.aliyun.com/]8.8.8.8'
+    - '[/*.alibabacloud.com/]8.8.8.8'
+    - '[/*.aliyuncs.com/]8.8.8.8'
+    - '[/*.alikunlun.com/]8.8.8.8'
+    - '# ============================================'
+    - '# BILIBILI / CHINESE VIDEO'
+    - '# ============================================'
+    - '[/*.bilibili.com/]8.8.8.8'
+    - '[/*.bilivideo.com/]8.8.8.8'
+    - '[/*.hdslb.com/]8.8.8.8'
+    - '[/*.biliapi.net/]8.8.8.8'
+    - '# ============================================'
+    - '# TWITTER / X'
+    - '# ============================================'
+    - '[/*.twitter.com/]8.8.8.8'
+    - '[/*.x.com/]8.8.8.8'
+    - '[/*.twimg.com/]8.8.8.8'
+    - '[/*.t.co/]8.8.8.8'
+    - '# ============================================'
+    - '# APPLE ECOSYSTEM'
+    - '# ============================================'
+    - '[/*.apple.com/]8.8.8.8'
+    - '[/*.icloud.com/]8.8.8.8'
+    - '[/*.cdn-apple.com/]8.8.8.8'
+    - '[/*.mzstatic.com/]8.8.8.8'
+    - '[/*.apple-cloudkit.com/]8.8.8.8'
+    - '[/*.applemusic.com/]8.8.8.8'
+    - '# ============================================'
+    - '# DISCORD'
+    - '# ============================================'
+    - '[/*.discord.com/]8.8.8.8'
+    - '[/*.discordapp.com/]8.8.8.8'
+    - '[/*.discord.gg/]8.8.8.8'
+    - '[/*.discordapp.net/]8.8.8.8'
+    - '[/*.discord.media/]8.8.8.8'
+    - '[/*.discordstatus.com/]8.8.8.8'
+    - '[/*.dis.gd/]8.8.8.8'
+    - '# ============================================'
+    - '# SPOTIFY'
+    - '# ============================================'
+    - '[/*.spotify.com/]8.8.8.8'
+    - '[/*.scdn.co/]8.8.8.8'
+    - '[/*.spotifycdn.com/]8.8.8.8'
+    - '[/*.spoti.fi/]8.8.8.8'
+    - '# ============================================'
+    - '# AMAZON / AWS ECOSYSTEM'
+    - '# ============================================'
+    - '[/*.amazon.com/]208.67.222.222'
+    - '[/*.amazonaws.com/]208.67.222.222'
+    - '[/*.cloudfront.net/]208.67.222.222'
+    - '[/*.awsdns.com/]208.67.222.222'
+    - '[/*.awsdns-02.co.uk/]208.67.222.222'
+    - '[/*.awsdns-03.org/]208.67.222.222'
+    - '[/*.awsdns-04.net/]208.67.222.222'
+    - '[/*.awsglobalaccelerator.com/]208.67.222.222'
+    - '[/*.elasticbeanstalk.com/]208.67.222.222'
+    - '[/*.ssl-images-amazon.com/]208.67.222.222'
+    - '[/*.awstrack.me/]208.67.222.222'
+    - '[/*.awsmail.net/]208.67.222.222'
+    - '[/*.awsstatic.com/]208.67.222.222'
+    - '[/*.aws.dev/]208.67.222.222'
+    - '# ============================================'
+    - '# MICROSOFT ECOSYSTEM'
+    - '# ============================================'
+    - '[/*.microsoft.com/]208.67.222.222'
+    - '[/*.microsoftonline.com/]208.67.222.222'
+    - '[/*.sharepoint.com/]208.67.222.222'
+    - '[/*.bing.com/]208.67.222.222'
+    - '[/*.azureedge.net/]208.67.222.222'
+    - '[/*.azurefd.net/]208.67.222.222'
+    - '[/*.windows.net/]208.67.222.222'
+    - '[/*.office.com/]208.67.222.222'
+    - '[/*.office365.com/]208.67.222.222'
+    - '[/*.live.com/]208.67.222.222'
+    - '[/*.outlook.com/]208.67.222.222'
+    - '[/*.skype.com/]208.67.222.222'
+    - '[/*.msn.com/]208.67.222.222'
+    - '[/*.onenote.com/]208.67.222.222'
+    - '[/*.visualstudio.com/]208.67.222.222'
+    - '[/*.xbox.com/]208.67.222.222'
+    - '[/*.xboxlive.com/]208.67.222.222'
+    - '# ============================================'
+    - '# NETFLIX'
+    - '# ============================================'
+    - '[/*.netflix.com/]8.8.8.8'
+    - '[/*.netflix.net/]8.8.8.8'
+    - '[/*.nflxext.com/]8.8.8.8'
+    - '[/*.nflximg.net/]8.8.8.8'
+    - '[/*.nflxvideo.net/]8.8.8.8'
+    - '[/*.nflxso.net/]8.8.8.8'
+    - '[/*.fast.com/]8.8.8.8'
+    - '# ============================================'
+    - '# CLOUDFLARE SERVICES'
+    - '# ============================================'
+    - '[/*.cloudflare.com/]1.1.1.1'
+    - '[/*.cloudflare-dns.com/]1.1.1.1'
+    - '[/*.cdn.cloudflare.net/]1.1.1.1'
+    - '[/*.cfargotunnel.com/]1.1.1.1'
+    - '[/*.workers.dev/]1.1.1.1'
+    - '[/*.pages.dev/]1.1.1.1'
+    - '[/*.r2.dev/]1.1.1.1'
+    - '[/*.cf-ipfs.com/]1.1.1.1'
+    - '[/*.trycloudflare.com/]1.1.1.1'
+    - '[/*.cloudflarestream.com/]1.1.1.1'
+    - '[/*.cloudflareresolve.com/]1.1.1.1'
+    - '[/*.cloudflare.tv/]1.1.1.1'
+    - '# ============================================'
+    - '# AKAMAI CDN'
+    - '# ============================================'
+    - '[/*.akamai.net/]208.67.222.222'
+    - '[/*.akamaiedge.net/]208.67.222.222'
+    - '[/*.akamaihd.net/]208.67.222.222'
+    - '[/*.akamaized.net/]208.67.222.222'
+    - '[/*.akamaiorigin.net/]208.67.222.222'
+    - '[/*.akadns.net/]208.67.222.222'
+    - '[/*.akadns6.net/]208.67.222.222'
+    - '[/*.akadns99.net/]208.67.222.222'
+    - '[/*.edgekey.net/]208.67.222.222'
+    - '[/*.edgesuite.net/]208.67.222.222'
+    - '[/*.akamaigame.com/]208.67.222.222'
+    - '[/*.akamaistream.net/]208.67.222.222'
+    - '[/*.akamai-staging.net/]208.67.222.222'
+    - '[/*.akamaiedge-staging.net/]208.67.222.222'
+    - '[/*.akamai-access.com/]208.67.222.222'
+    - '[/*.akamaiorigin-secure.net/]208.67.222.222'
+    - '[/*.akamaitechnologies.com/]208.67.222.222'
+    - '[/*.akamaitechnologies.fr/]208.67.222.222'
+    - '[/*.akamaitech.net/]208.67.222.222'
+    - '[/*.akstat.io/]208.67.222.222'
+    - '[/*.liverail.com/]208.67.222.222'
+    - '# ============================================'
+    - '# FASTLY CDN'
+    - '# ============================================'
+    - '[/*.fastly.net/]208.67.222.222'
+    - '[/*.fastlylb.net/]208.67.222.222'
+    - '[/*.fastly-edge.com/]208.67.222.222'
+    - '# ============================================'
+    - '# BUNNY CDN'
+    - '# ============================================'
+    - '[/*.bunny.net/]208.67.222.222'
+    - '[/*.b-cdn.net/]208.67.222.222'
+    - '# ============================================'
+    - '# KEYCDN'
+    - '# ============================================'
+    - '[/*.kxcdn.com/]208.67.222.222'
+    - '[/*.keycdn.com/]208.67.222.222'
+    - '# ============================================'
+    - '# STACKPATH CDN'
+    - '# ============================================'
+    - '[/*.stackpathcdn.com/]208.67.222.222'
+    - '# ============================================'
+    - '# GAMING PLATFORMS'
+    - '# ============================================'
+    - '# Steam / Valve'
+    - '[/*.steampowered.com/]208.67.222.222'
+    - '[/*.steamstatic.com/]208.67.222.222'
+    - '[/*.steamcommunity.com/]208.67.222.222'
+    - '[/*.steamcontent.com/]208.67.222.222'
+    - '[/*.steamgames.com/]208.67.222.222'
+    - '[/*.valvesoftware.com/]208.67.222.222'
+    - '# Epic Games'
+    - '[/*.epicgames.com/]208.67.222.222'
+    - '[/*.unrealengine.com/]208.67.222.222'
+    - '# ============================================'
+    - '# STREAMING PLATFORMS'
+    - '# ============================================'
+    - '# Twitch'
+    - '[/*.twitch.tv/]208.67.222.222'
+    - '[/*.twitchcdn.net/]208.67.222.222'
+    - '[/*.jtvnw.net/]208.67.222.222'
+    - '# ============================================'
+    - '# E-COMMERCE SEA REGION'
+    - '# ============================================'
+    - '# Shopee'
+    - '[/*.shopee.vn/]208.67.222.222'
+    - '[/*.shopeemobile.com/]208.67.222.222'
+    - '# Lazada'
+    - '[/*.lazada.vn/]208.67.222.222'
   upstream_dns_file: ""
   bootstrap_dns:
     - 1.1.1.1
@@ -51,8 +359,8 @@ dns:
     - ::1/128
   cache_enabled: true
   cache_size: 67108864
-  cache_ttl_min: 300
-  cache_ttl_max: 1800
+  cache_ttl_min: 60
+  cache_ttl_max: 300
   cache_optimistic: true
   bogus_nxdomain: []
   aaaa_disabled: false
@@ -98,13 +406,13 @@ querylog:
   ignored: []
   interval: 2160h
   size_memory: 1000
-  enabled: true
+  enabled: false
   file_enabled: true
 statistics:
   dir_path: ""
   ignored: []
   interval: 2160h
-  enabled: true
+  enabled: false
 filters:
   - enabled: true
     url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
@@ -120,20 +428,16 @@ filters:
     id: 1758866589
   - enabled: true
     url: https://raw.githubusercontent.com/bibicadotnet/AdGuard-Home-blocklists/refs/heads/main/byme.txt
-    name: '[BIBICA.NET] CocCoc & MSN Domains'
+    name: CocCoc & MSN Domains
     id: 1758866590
   - enabled: true
-    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt
-    name: OISD Blocklist Small
-    id: 1758886128
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_51.txt
+    name: HaGeZi's Pro++ Blocklist
+    id: 1758975031
   - enabled: true
-    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
-    name: AdGuard Mobile Ads filter
-    id: 1758886764
-  - enabled: true
-    url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
-    name: AdGuard Social Media filter
-    id: 1758886765
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt
+    name: OISD Blocklist Big
+    id: 1758975032
 whitelist_filters: []
 user_rules:
   - ""
@@ -174,7 +478,11 @@ filtering:
   blocking_mode: default
   parental_block_host: family-block.dns.adguard.com
   safebrowsing_block_host: standard-block.dns.adguard.com
-  rewrites: []
+  rewrites:
+    - domain: '*.medium.com'
+      answer: bibica.net
+    - domain: medium.com
+      answer: bibica.net
   safe_fs_patterns:
     - /opt/adguardhome/work/userfilters/*
   safebrowsing_cache_size: 1048576
