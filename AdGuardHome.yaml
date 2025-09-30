@@ -5,12 +5,12 @@ http:
   address: 0.0.0.0:80
   session_ttl: 720h
 users:
-  - name: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  - name: bibica
+    password: $2a$10$OBOpepUs8ZpodgA1bBphB.HNtXdUBN0RJtefOIKm3Wqn2W7vrsUQW
 auth_attempts: 5
 block_auth_min: 15
 http_proxy: ""
-language: en
+language: ""
 theme: auto
 dns:
   bind_hosts:
@@ -366,7 +366,7 @@ dns:
   aaaa_disabled: false
   enable_dnssec: false
   edns_client_subnet:
-    custom_ip: 14.191.232.232
+    custom_ip: ""
     enabled: true
     use_custom: false
   max_goroutines: 300
@@ -391,7 +391,7 @@ tls:
   server_name: adguard.bibica.net
   force_https: false
   port_https: 443
-  port_dns_over_tls: 853
+  port_dns_over_tls: 0
   port_dns_over_quic: 0
   port_dnscrypt: 0
   dnscrypt_config_file: ""
@@ -406,33 +406,32 @@ querylog:
   ignored: []
   interval: 2160h
   size_memory: 1000
-  enabled: false
+  enabled: true
   file_enabled: true
 statistics:
   dir_path: ""
   ignored: []
   interval: 2160h
-  enabled: false
+  enabled: true
 filters:
   - enabled: true
     url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
     name: AdGuard DNS filter
     id: 1
   - enabled: true
-    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt
-    name: AdGuard DNS Popup Hosts filter
-    id: 1758866587
-  - enabled: true
     url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_16.txt
     name: 'VNM: ABPVN List'
-    id: 1758866589
+    id: 1759236398
   - enabled: true
     url: https://raw.githubusercontent.com/bibicadotnet/AdGuard-Home-blocklists/refs/heads/main/byme.txt
     name: CocCoc & MSN Domains
-    id: 1758866590
-whitelist_filters: []
-user_rules:
-  - ""
+    id: 1759236399
+whitelist_filters:
+  - enabled: true
+    url: https://raw.githubusercontent.com/bibicadotnet/AdGuard-Home-blocklists/refs/heads/main/whitelist.txt
+    name: Allowlist
+    id: 1759236400
+user_rules: []
 dhcp:
   enabled: false
   interface_name: ""
@@ -470,11 +469,7 @@ filtering:
   blocking_mode: default
   parental_block_host: family-block.dns.adguard.com
   safebrowsing_block_host: standard-block.dns.adguard.com
-  rewrites:
-    - domain: '*.medium.com'
-      answer: bibica.net
-    - domain: medium.com
-      answer: bibica.net
+  rewrites: []
   safe_fs_patterns:
     - /opt/adguardhome/work/userfilters/*
   safebrowsing_cache_size: 1048576
