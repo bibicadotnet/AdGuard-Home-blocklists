@@ -1,6 +1,6 @@
 ! Title: CocCoc & MSN Domains
 ! Description: Chặn các domain CocCoc, MSN và 1 số trang cá nhân
-! Version: 1.0
+! Version: 1.1
 ! Homepage: https://github.com/bibicadotnet/AdGuard-Home-blocklists
 
 ! MSN Domain
@@ -8,8 +8,18 @@
 
 ! CocCoc Domains (chặn tất cả subdomain)
 ||coccoc.com^
+||www.coccoc.com^
 ||qccoccocmedia.vn^
+||qc.coccoc.com^
+||qccdn.coccoc.com^
+||cdn-qc.coccoc.com^
+||catalog.qc.coccoc.com^
+||qc-static.coccoc.com^
+||ntrb.qc.coccoc.com^
+||context.qc.coccoc.com^
+||qcvod.coccoc.com^
 
 ! ROPHIM
 ||robong.net^
 ||finallygotthexds.site^
+||i.finallygotthexds.site^
