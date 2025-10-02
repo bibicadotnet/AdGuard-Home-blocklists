@@ -4,3 +4,4 @@
 ! Homepage: https://github.com/bibicadotnet/AdGuard-Home-allowlists
 
 @@||umami.is^
+@@||controld.com^
