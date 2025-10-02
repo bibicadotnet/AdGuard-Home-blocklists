@@ -26,5 +26,9 @@
 ||tx88.com^
 ||man88.vip^
 
-!truyenqqgo.com
+! truyenqqgo.com
 ||mplmncb.com^
+
+! baomoi
+||w-api.baomoi.com^
+||api.baomoi.com^
