@@ -35,5 +35,4 @@
 ||mplmncb.com^
 
 ! baomoi
-||w-api.baomoi.com^
 ||api.baomoi.com^
