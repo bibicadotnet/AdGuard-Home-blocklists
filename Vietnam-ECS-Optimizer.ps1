@@ -2,7 +2,11 @@
 
 # Require Administrator
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
-    Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -Command `"irm https://go.bibica.net/ecs | iex`"" -Verb RunAs
+    $scriptBlock = @'
+irm https://go.bibica.net/ecs | iex
+Read-Host 'Script completed. Press Enter to exit'
+'@
+    Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -NoExit -Command `"$scriptBlock`"" -Verb RunAs
     exit
 }
 
