@@ -1,5 +1,12 @@
 # Vietnam ECS Optimizer
 # irm https://go.bibica.net/ecs | iex
+
+# Require Administrator
+if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+    Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -Command `"irm https://go.bibica.net/ecs | iex`"" -Verb RunAs
+    exit
+}
+
 clear
 Write-Host ""
 Write-Host "Vietnam ECS Optimizer" -ForegroundColor Cyan
@@ -687,3 +694,4 @@ $csv = Join-Path $PSScriptRoot "ecs_$(Get-Date -Format 'yyyyMMdd_HHmmss').csv"
 $results | Export-Csv $csv -NoTypeInformation -Encoding UTF8
 Write-Host "`nExported to: $csv" -ForegroundColor Green
 Write-Host "Location: $(Resolve-Path $csv)" -ForegroundColor Yellow
+Read-Host "Press Enter to exit"
