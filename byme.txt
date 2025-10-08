@@ -5,6 +5,7 @@
 
 ! MSN Domain
 ||ntp.msn.com^
+||edge.microsoft.com^
 
 ! CocCoc Domains (chặn tất cả subdomain)
 ||coccoc.com^
