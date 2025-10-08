@@ -5,6 +5,8 @@
 
 ! Mở ra nếu không thì không cài được addon
 @@||safe-browsing-api.coccoc.com
+@@||account.coccoc.com
+@@||browser.coccoc.com
 
 @@||umami.is^
 @@||controld.com^
