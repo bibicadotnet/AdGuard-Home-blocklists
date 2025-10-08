@@ -8,9 +8,9 @@
 ||edge.microsoft.com^
 
 ! CocCoc Domains (chặn quảng cáo, theo dõi)
-||metrics.coccoc.com
+||metrics.coccoc.com^
 ||qccoccocmedia.vn^
-||coccoc.telemetry.eyeo.com
+||coccoc.telemetry.eyeo.com^
 
 ! ROPHIM
 ||robong.net^
