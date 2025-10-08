@@ -690,8 +690,16 @@ if ($top) {
 }
 
 # Export
-$csv = Join-Path $PSScriptRoot "ecs_$(Get-Date -Format 'yyyyMMdd_HHmmss').csv"
-$results | Export-Csv $csv -NoTypeInformation -Encoding UTF8
-Write-Host "`nExported to: $csv" -ForegroundColor Green
-Write-Host "Location: $(Resolve-Path $csv)" -ForegroundColor Yellow
-Read-Host "Press Enter to exit"
+$exportDir = if ($PSScriptRoot) { $PSScriptRoot } else { Get-Location }
+$csv = Join-Path $exportDir "ecs_$(Get-Date -Format 'yyyyMMdd_HHmmss').csv"
+
+try {
+    $results | Export-Csv $csv -NoTypeInformation -Encoding UTF8
+    Write-Host "`nExported to: $csv" -ForegroundColor Green
+    Write-Host "Location: $(Resolve-Path $csv)" -ForegroundColor Yellow
+} catch {
+    Write-Host "`nCould not export to CSV: $($_.Exception.Message)" -ForegroundColor Red
+    Write-Host "Results are only displayed on screen." -ForegroundColor Yellow
+}
+
+Read-Host "`nPress Enter to exit"
