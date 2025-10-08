@@ -7,8 +7,8 @@
 ||ntp.msn.com^
 ||edge.microsoft.com^
 
-! CocCoc Domains (chặn tất cả subdomain)
-||coccoc.com^
+! CocCoc Domains (chặn quảng cáo, theo dõi)
+||metrics.coccoc.com
 ||qccoccocmedia.vn^
 ||coccoc.telemetry.eyeo.com
 
