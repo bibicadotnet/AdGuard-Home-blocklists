@@ -1,15 +1,5 @@
 # Vietnam ECS Optimizer
-
-# Require Administrator
-if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
-    $scriptBlock = @'
-irm https://go.bibica.net/ecs | iex
-Read-Host 'Script completed. Press Enter to exit'
-'@
-    Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -NoExit -Command `"$scriptBlock`"" -Verb RunAs
-    exit
-}
-
+# irm https://go.bibica.net/ecs | iex
 clear
 Write-Host ""
 Write-Host "Vietnam ECS Optimizer" -ForegroundColor Cyan
