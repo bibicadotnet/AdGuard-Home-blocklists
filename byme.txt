@@ -11,6 +11,8 @@
 ||metrics.coccoc.com^
 ||qccoccocmedia.vn^
 ||coccoc.telemetry.eyeo.com^
+||update.coccoc.com^
+||afl.coccoc.com^
 
 ! ROPHIM
 ||robong.net^
