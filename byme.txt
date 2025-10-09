@@ -7,12 +7,17 @@
 ||ntp.msn.com^
 ||edge.microsoft.com^
 
-! CocCoc Domains (chặn quảng cáo, theo dõi)
+! CocCoc Domains (chặn quảng cáo, theo dõi, update)
+||update.coccoc.com^
+||afl.coccoc.com^
+||safe-browsing-api.coccoc.com^
 ||metrics.coccoc.com^
 ||qccoccocmedia.vn^
 ||coccoc.telemetry.eyeo.com^
-||update.coccoc.com^
-||afl.coccoc.com^
+||new-tab.coccoc.com^
+||qc-static.coccoc.com^
+||catalog.qc.coccoc.com^
+||display.qc.coccoc.com^
 
 ! ROPHIM
 ||robong.net^
