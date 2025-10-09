@@ -3,10 +3,12 @@
 ! Version: 1.0
 ! Homepage: https://github.com/bibicadotnet/AdGuard-Home-allowlists
 
-! Mở ra nếu không thì không cài được addon
-@@||safe-browsing-api.coccoc.com^
-@@||account.coccoc.com^
+! Mở browser ra nếu không thì không cài được addon trên Cốc Cốc
 @@||browser.coccoc.com^
+@@||coccoc.com/search^
+@@||accounts.coccoc.com^
+@@||points.coccoc.com^
+@@||coccoc.com/search^
 
 @@||umami.is^
 @@||controld.com^
