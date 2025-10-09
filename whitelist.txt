@@ -5,6 +5,7 @@
 
 ! Mở browser ra nếu không thì không cài được addon trên Cốc Cốc
 @@||browser.coccoc.com^
+@@||safe-browsing-api.coccoc.com^
 @@||coccoc.com/search^
 @@||accounts.coccoc.com^
 @@||points.coccoc.com^
