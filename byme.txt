@@ -10,7 +10,6 @@
 ! CocCoc Domains (chặn quảng cáo, theo dõi, update)
 ||update.coccoc.com^
 ||afl.coccoc.com^
-||safe-browsing-api.coccoc.com^
 ||metrics.coccoc.com^
 ||qccoccocmedia.vn^
 ||coccoc.telemetry.eyeo.com^
