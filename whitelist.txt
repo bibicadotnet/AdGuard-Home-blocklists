@@ -9,7 +9,10 @@
 @@||coccoc.com/search^
 @@||accounts.coccoc.com^
 @@||points.coccoc.com^
-@@||coccoc.com/search^
 
+! Mặc định Edge không chặn url bên dưới, nếu không sẽ không gọi được tới Google Search
+@@||edge.microsoft.com^
+
+! Trang bị chặn nhầm
 @@||umami.is^
 @@||controld.com^
