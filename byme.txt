@@ -17,8 +17,6 @@
 ||qc-static.coccoc.com^
 ||catalog.qc.coccoc.com^
 ||display.qc.coccoc.com^
-||coccoc.com/log^
-||coccoc.com/webhp/static^
 
 ! ROPHIM
 ||robong.net^
