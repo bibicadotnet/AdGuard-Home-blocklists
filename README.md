@@ -39,10 +39,6 @@ ECS (EDNS Client Subnet) cho phép DNS resolver chỉ định thông tin mạng 
 8.8.4.4
 9.9.9.11
 149.112.112.11
-208.67.222.123
-208.67.220.123
-208.67.222.2
-208.67.220.2
 208.67.222.222
 208.67.220.220
 ```
@@ -52,12 +48,13 @@ ECS (EDNS Client Subnet) cho phép DNS resolver chỉ định thông tin mạng 
 ## Cách Kiểm Tra ECS
 
 ```cmd
+nslookup -type=TXT o-o.myaddr.l.google.com 8.8.8.8
 nslookup -type=TXT whoami.ds.akahelp.net 8.8.8.8
 ```
 
 Kết quả sẽ hiển thị:
 - `ip` - IP thực của bạn
-- `ecs` - Subnet IP mà DNS gửi đi
+- `ecs` - Subnet IP mà DNS gửi đi phải là địa chỉ IP hiện tại mới là gửi ECS chính xác
 
 ---
 
