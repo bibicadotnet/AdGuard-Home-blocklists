@@ -22,16 +22,13 @@ ECS (EDNS Client Subnet) cho phép DNS resolver chỉ định thông tin mạng 
 
 ---
 
-## IP DNS Hỗ Trợ ECS
+## DNS ECS an toàn có thể dùng
 
 ```
 8.8.8.8
 8.8.4.4
 9.9.9.11
 149.112.112.11
-119.29.29.29
-180.184.1.1
-180.184.2.2
 208.67.222.222
 208.67.222.123
 ```
