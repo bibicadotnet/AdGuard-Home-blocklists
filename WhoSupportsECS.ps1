@@ -45,7 +45,11 @@ $dnsList = @(
     "Safe Surfer Secondary,104.197.28.121"
     "Surfshark DNS,194.169.169.169"
     "Verisign Public DNS Primary,64.6.64.6"
+    "ABPVN HCM Vietnam,103.70.12.217"
+    "ABPVN Seoul Korea,193.122.101.143"
+    "ABPVN Singapore,149.28.148.61"
 )
+
 
 Write-Host "`n[2] Testing DNS servers..." -ForegroundColor Yellow
 Write-Host ""
