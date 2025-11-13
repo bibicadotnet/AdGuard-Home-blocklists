@@ -16,6 +16,7 @@
 ! Trang bị chặn nhầm
 @@||umami.is^
 @@||controld.com^
+@@||tolt.io^
 
 ! Bỏ chặn toàn bộ các domain Cloudflare cho an toàn
 @@||cloudflare.com^
