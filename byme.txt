@@ -15,8 +15,7 @@
 ||coccoc.telemetry.eyeo.com^
 ||new-tab.coccoc.com^
 ||qc-static.coccoc.com^
-||catalog.qc.coccoc.com^
-||display.qc.coccoc.com^
+||qc.coccoc.com^
 
 ! ROPHIM
 ||robong.net^
