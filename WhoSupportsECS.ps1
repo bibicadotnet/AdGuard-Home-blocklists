@@ -48,6 +48,7 @@ $dnsList = @(
     "ABPVN HCM Vietnam,103.70.12.217"
     "ABPVN Seoul Korea,193.122.101.143"
     "ABPVN Singapore,149.28.148.61"
+    "dns.bibica.net,45.146.6.3"    
 )
 
 
