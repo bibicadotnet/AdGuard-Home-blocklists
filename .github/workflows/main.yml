@@ -2,8 +2,8 @@ name: Update DNS Blocklists
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Chạy vào 00:00 UTC hàng ngày
-  workflow_dispatch: # Cho phép bấm chạy thủ công
+    - cron: '* * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
