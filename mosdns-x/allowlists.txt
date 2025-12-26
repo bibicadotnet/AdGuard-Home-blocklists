@@ -12,3 +12,4 @@ cloudflareinsights.com
 bitwarden.com
 vault.bitwarden.com
 vault.bitwarden.eu
+pagead2.googlesyndication.com
