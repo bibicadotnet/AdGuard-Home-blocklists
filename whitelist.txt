@@ -29,4 +29,5 @@
 
 # Bỏ chặn pagead2.googlesyndication.com (vì 1 số domain cần hiện ra mới cho dùng)
 # Trên Adnroid, iOS hiện nhiều quảng cáo hơn
+# Trên Windows dùng Ublock ... chặn như thông thường
 @@||pagead2.googlesyndication.com^
