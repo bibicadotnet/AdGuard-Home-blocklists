@@ -26,3 +26,7 @@
 @@||bitwarden.com^
 @@||vault.bitwarden.com^
 @@||vault.bitwarden.eu^
+
+# Bỏ chặn pagead2.googlesyndication.com (vì 1 số domain cần hiện ra mới cho dùng)
+# Trên Adnroid, iOS hiện nhiều quảng cáo hơn
+@@||pagead2.googlesyndication.com^
