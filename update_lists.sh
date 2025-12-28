@@ -14,28 +14,19 @@ mkdir -p "./$DIR"
 trap "rm -f $BLOCK_TMP $ALLOW_TMP; exit" INT TERM EXIT
 
 extract_domains() {
-  awk '
-  {
+  awk '{
     if (/^[[:space:]]*$/ || /^[!#]/) next
-    if (!/[a-z0-9.-]/) next
-    
     line = tolower($0)
-    
-    sub(/^@@/, "", line)
-    sub(/^\|\|/, "", line)
+    sub(/^@@\|\|?/, "", line)
+    sub(/^\|\|?/, "", line)
     sub(/\^.*/, "", line)
     sub(/[#!].*/, "", line)
     sub(/\/.*/, "", line)
     sub(/:.*/, "", line)
     sub(/^[0-9.]+[[:space:]]+/, "", line)
-    sub(/^[[:space:]]+/, "", line)
-    sub(/[[:space:]]+$/, "", line)
-    
-    if (line ~ /^[a-z0-9.-]+\.[a-z]{2,}$/ && !seen[line]++) {
-      print line
-    }
-  }
-  '
+    gsub(/^[[:space:]]+|[[:space:]]+$/, "", line)
+    if (line ~ /^[a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?(\.[a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?)+$/ && !seen[line]++) print line
+  }'
 }
 
 echo "Downloading and processing blocklists..."
