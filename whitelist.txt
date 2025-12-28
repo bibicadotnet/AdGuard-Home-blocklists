@@ -31,4 +31,4 @@
 @@||umami.is^
 @@||controld.com^
 @@||tolt.io^
-@@|| http://www.iplocate.io^
+@@||iplocate.io^
