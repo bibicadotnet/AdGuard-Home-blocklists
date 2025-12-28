@@ -12,11 +12,6 @@
 ! Mặc định Edge không chặn url bên dưới, nếu không sẽ không gọi được tới Google Search
 @@||edge.microsoft.com^
 
-! Trang bị chặn nhầm
-@@||umami.is^
-@@||controld.com^
-@@||tolt.io^
-
 ! Bỏ chặn toàn bộ các domain Cloudflare cho an toàn
 @@||cloudflare.com^
 @@||cloudflare.net^
@@ -31,3 +26,9 @@
 # Trên Adnroid, iOS hiện nhiều quảng cáo hơn
 # Trên Windows dùng Ublock ... chặn như thông thường
 @@||pagead2.googlesyndication.com^
+
+! Trang bị chặn nhầm
+@@||umami.is^
+@@||controld.com^
+@@||tolt.io^
+@@|| http://www.iplocate.io^
