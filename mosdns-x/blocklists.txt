@@ -73745,7 +73745,6 @@ ads-delivery.gunosy.com
 ads-config-engine-noneu.truecaller.com
 ad.inston.ltd
 ad.deepthought.industries
-ad.bandlab.io
 ads.cocomobi.com
 inmense.site
 dollphoin.site
@@ -74094,6 +74093,8 @@ yc-ads.s3.amazonaws.com
 n152adserv.com
 smilered.com
 ib.snssdk.com
+rtbuniverse.com
+gw-usa-tracker.zmaticoo.com
 data.deep-content.io
 pingpong.us
 protected-api.branch.io
@@ -146225,6 +146226,7 @@ ad.altervista.org
 ad.amediakreativ.no
 ad.apl385.me
 ad.avtm.fr
+ad.bandlab.io
 ad.bannerhost.ru
 ad.bczcdn.com
 ad.beepworld.de
