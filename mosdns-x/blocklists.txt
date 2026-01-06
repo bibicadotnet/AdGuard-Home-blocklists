@@ -19893,6 +19893,7 @@ register.appsflyersdk.com
 skadsdk.appsflyersdk.com
 xy.fbcdn.net
 xz.fbcdn.net
+api-ao.adison.co
 figureraisinupper.com
 agl004.fun
 v174nyvle72ozq.cfd
@@ -22270,7 +22271,6 @@ delivery.gettopple.com
 engine.gettopple.com
 gateway.paradoxgroup.co
 jzduxkeumwnrfp6x.exasrv.com
-m.optidigital.com
 management-boost.exads.com
 management-itsup.exads.com
 management-slice.exads.com
@@ -22281,7 +22281,6 @@ management.adxnow.com
 rtb.advertrek.com
 rtb.allureanews.com
 rtb.nowsrv.com
-rtb.optidigital.com
 rtb.traffic-gold.com
 rtb.trafficfactory.com
 s.18ramp.com
@@ -22425,7 +22424,6 @@ s.nidersaw.com
 s.nowsrv.com
 s.nuismak.com
 s.opti-digital.com
-s.optidigital.com
 s.pinkads.org
 s.playa.to
 s.rocoads.net
@@ -30261,6 +30259,7 @@ bincatracs.com
 bindirect.click
 binescrc.cyou
 bineukdwithmef.org
+bingehassled.qpon
 bingeysakell.click
 bingeysosoneguarri.cyou
 bingovotress.click
@@ -39604,6 +39603,7 @@ ginningsteri.com
 giocyrvdmxgqz.website
 giojosoflaker.cyou
 giolvmimbguyk.net
+giplqbdspww.com
 gipsiesthyrsi.com
 gipsymandate.com
 giraffefaits.cyou
@@ -45227,6 +45227,7 @@ kromeiciness.com
 kromerefinds.cyou
 kronendaylong.help
 kroonsforches.qpon
+kroxkccu.xyz
 krpoxpezhuqqx.online
 krrknsakpmpve.online
 krshmqrqvipop.website
@@ -46333,6 +46334,7 @@ lmvugtjbkotmy.website
 lmwpcinqc.net
 lmxjnuysjbyea.space
 lmyvafkazblue.site
+lmyx2xkq3p2jbnh8phf35fiy.cfd
 lmz5brfvne1fyx.cfd
 lmzhpzoycxjfn.top
 lnabew.com
@@ -46839,6 +46841,7 @@ lvbbdxvfisdnw.website
 lvbeybbrwlamk.top
 lvbeybbrwvywq.top
 lvfgmuaroloxd.online
+lvhtgmxvwznvo.site
 lvinudabjlneg.space
 lvizjwwjbnhuh.space
 lvksiviwpenew.website
@@ -47348,6 +47351,7 @@ mbzakfkiymvra.website
 mbzavqzuxplxf.site
 mcctndeffuklz.online
 mcdocxasiaflxj.xyz
+mcejaxrmu.com
 mcfstats.com
 mcgengegvbodx.online
 mcgo2.com
@@ -52670,6 +52674,7 @@ pochardcroup.cfd
 pochoirgeodesy.rest
 pocketnudisms.cyou
 pocketshighlyinquired.com
+podbteiinrlkl.space
 poddockdwellsdollier.cfd
 poder.cloud
 podosupsurge.com
@@ -52682,6 +52687,7 @@ poflix.com
 pofookhmbkwuf.site
 pogghkrtow.net
 poghyyvif.com
+pogmimonomdyc.space
 pogothere.xyz
 pohamqqueodzt.online
 pohgrfoogvfvl.store
@@ -56183,6 +56189,7 @@ rssvpojmnzvge.online
 rssxgfeukcqdq.website
 rstpgmfbcproe.store
 rstrix.com
+rsuqvqrnrhnq.com
 rswdeqaxsltpg.website
 rsyauqmnzkznc.store
 rsyekdrbcexjm.space
@@ -60146,6 +60153,7 @@ tlshcpnfphkkk.website
 tlswzfbujtgzi.buzz
 tluihoeadocjs.store
 tlwsnhpnrfxjw.site
+tlxcxlrnjriht.space
 tlxllhppdjbxp.website
 tlysearchingforanop.com
 tmb5trk.com
@@ -64983,6 +64991,7 @@ xrjkkmsjofyef.website
 xrkiexchlyctr.com
 xrllratggofic.online
 xrltgmbpehohn.website
+xroojhtpacil.com
 xrotlrpauwlaa.online
 xrqiweauoxfwn.site
 xrvafzjhkivnn.space
@@ -67258,6 +67267,7 @@ openbook.net
 opt-intelligence.com
 optable.co
 optiads.org
+optidigital.com
 optinmonster.com
 oriel.io
 osiaffiliate.com
@@ -69572,6 +69582,7 @@ vod-mplayer.sooplive.co.kr
 reqde.sooplive.co.kr
 adballoon.sooplive.co.kr
 deapi.sooplive.co.kr
+up.ousabq.tech
 ogads-pa.clients6.google.com
 ad.mojisead.co.kr
 openglass.tv
@@ -117932,6 +117943,8 @@ sngmta.qq.com
 adstats.tencentmusic.com
 monitor.music.qq.com
 stat.y.qq.com
+bstream.kzhi.tech
+lklfwu-inapps.appsflyersdk.com
 mob2.welltastic-app.com
 amplitude.thepure.app
 amplilab.thepure.app
@@ -130160,6 +130173,8 @@ wm02x4gcnx.com
 ox3e5wyy79.com
 ainb01061zh.com
 c4ru5li2sa.com
+pkhottoqai.com
+cgcg01061ht.com
 g2wg5308q.com
 cgcg01050ht.com
 houotgk3m.com
@@ -146550,7 +146565,6 @@ api-analytics-us.zepp.com
 api-analytics-us3.zepp.com
 api-analytics.t-mobile.cz
 api-analytics.topankovo.sk
-api-ao.adison.co
 api-bdc.net
 api-c.sobot.com
 api-cdmp.iittala.com
@@ -149341,7 +149355,6 @@ bsqbgspa.com
 bsrv.qq.com
 bstlnk.com
 bstream.hzmklvdieo.com
-bstream.kzhi.tech
 bt.tt.omtrdc.net
 btccryptochain.com
 btcpop.co
@@ -167278,7 +167291,6 @@ opti-digital.com
 opti-x.optimove.net
 optical-center.eu
 opticksprotection.com
-optidigital.com
 optimalpeople.fr
 optimhub.com
 optimise.net
