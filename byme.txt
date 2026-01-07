@@ -16,6 +16,7 @@
 ||new-tab.coccoc.com^
 ||qc-static.coccoc.com^
 ||qc.coccoc.com^
+||video.comedia.coccoc.com^
 
 ! ROPHIM
 ||finallygotthexds.site^
