@@ -41,3 +41,14 @@
 
 ! wenjie623, danh sách quảng cáo các trang Trung Quốc (https://edge.bibica.net/#atk-comment-10358)
 ! https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
+
+! NXDOMAIN
+||ip-info.ff.avast.com.tendawifi.com^
+||shepherd.avcdn.net.tendawifi.com^
+||analytics.avcdn.net.tendawifi.com^
+||analytics.avcdn.net.dtu.vn^
+||shepherd.avcdn.net.dtu.vn^
+||tracker.valete.tf^
+||apiv4.tmso1.co^
+||wpad.dtu.vn^
+||livetech.live.shopee.vn^
