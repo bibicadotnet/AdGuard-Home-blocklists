@@ -53,3 +53,7 @@
 ||apiv4.tmso1.co^
 ||wpad.dtu.vn^
 ||livetech.live.shopee.vn^
+||api.intelsa.intel.com^
+||platform.foxit.com^
+||f17-zpc.zdn.vn^
+||f14-zpc.zdn.vn^
