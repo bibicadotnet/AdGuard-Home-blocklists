@@ -9346,6 +9346,10 @@ browser-intake-datadoghq.eu
 browser-intake-ddog-gov.com
 beacon-api.aliyuncs.com
 adash.man.aliyuncs.com
+log.aliyuncs.com
+alivc-aio-sgp.ap-southeast-1.log.aliyuncs.com
+videocloud-sgp.ap-southeast-1.log.aliyuncs.com
+vod-newplayer-sg.ap-southeast-1.log.aliyuncs.com
 analytics.userreport.com
 bapi.userreport.com
 cdn.userreport.com
@@ -117754,7 +117758,6 @@ adash-emas.cn-hangzhou.aliyuncs.com
 dfe.mic.mob.com
 dutils.com
 openlog.tapapis.cn
-log.aliyuncs.com
 analytics.nianticspatial.com
 statistical-report.djiservice.org
 qcloud-sg-datareceiver.kurogame.xyz
