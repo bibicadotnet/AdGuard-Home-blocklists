@@ -18,6 +18,7 @@
 ||qc.coccoc.com^
 ||s.qc.coccoc.com^
 ||video.comedia.coccoc.com^
+||display.qc.coccoc.com^
 
 ! ROPHIM
 ||finallygotthexds.site^
