@@ -155714,6 +155714,9 @@ href.li
 str.hit.gemius.pl
 track.rutarget.ru
 5471782.fls.doubleclick.net
+use-application-dns.net
+mask.icloud.com
+mask-h2.icloud.com
 ntp.msn.com
 update.coccoc.com
 afl.coccoc.com
