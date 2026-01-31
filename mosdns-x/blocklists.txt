@@ -155688,6 +155688,14 @@ api.baomoi.com
 ubt.tracking.shopee.vn
 ubta.tracking.shopee.vn
 df.infra.sz.shopee.vn
+tendawifi.com
+mshome.net
+home.arpa
+version.bind
+id.server
+hostname.bind
+authors.bind
+odds.luongson.app
 optimus-ads.amap.com
 t1.cdn.xiangha.com
 scs.openspeech.cn
