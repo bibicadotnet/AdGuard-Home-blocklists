@@ -34,3 +34,5 @@
 @@||iplocate.io^
 @@||vlxx.bz^
 @@||smetrics.techcombank.com^
+@@||click.mz.simba.taobao.com^
+@@||click.tz.simba.taobao.com^
