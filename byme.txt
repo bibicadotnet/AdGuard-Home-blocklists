@@ -53,7 +53,7 @@
 ! wenjie623, danh sách quảng cáo các trang Trung Quốc (https://edge.bibica.net/#atk-comment-10358)
 ! https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 
-! RCODE 3 (NXDOMAIN)
+! Local Domain
 ||tendawifi.com^
 ||mshome.net^
 ||home.arpa^
@@ -61,6 +61,4 @@
 ||id.server^
 ||hostname.bind^
 ||authors.bind^
-
-! RCODE 2 (SERVFAIL)
-
+||use-application-dns.net^
