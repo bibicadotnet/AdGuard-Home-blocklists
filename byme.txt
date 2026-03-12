@@ -97,4 +97,3 @@
 ||id.server^
 ||hostname.bind^
 ||authors.bind^
-||use-application-dns.net^
