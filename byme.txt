@@ -45,13 +45,54 @@
 ! baomoi
 ||api.baomoi.com^
 
+! Shopee.vn
+||ubt.tracking.shopee.vn^
+||ubta.tracking.shopee.vn^
+||df.infra.sz.shopee.vn^
+
 ! wenjie623, danh sách quảng cáo các trang Trung Quốc (https://edge.bibica.net/#atk-comment-10358)
 ! https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 
 ! Local Domain
+||internal^
+||localdomain^
+||example^
+||invalid^
+||localhost^
+||test^
+||local^
+||onion^
+||lan^
+||home^
+||fpt^
+||unused^
+||router^
+||instant.arubanetworks.com^
+||setmeup.arubanetworks.com^
+||asusrouter.com^
+||router.asus.com^
+||router.asus^
+||www.asusrouter.com^
+||oasisauth.h3c.com^
+||routerlogin.com^
+||www.routerlogin.com^
+||tplogin.cn^
+||miwifi.com^
+||itotolink.net^
+||plex.direct^
+||peiluyou.com^
+||tplinkwifi.net^
 ||tendawifi.com^
-||mshome.net^
+||hiwifi.com^
+||leike.cc^
+||router.ctc^
+||phicomm.me^
+||ts.net^
 ||home.arpa^
+||in-addr.arpa^
+||ip6.arpa^
+||192.168.1.1^
+||192.168.0.1^
 ||version.bind^
 ||id.server^
 ||hostname.bind^
