@@ -36,3 +36,6 @@
 @@||vlxx.ms^
 @@||click.mz.simba.taobao.com^
 @@||click.tz.simba.taobao.com^
+
+! Bỏ chặn shopee vì rất nhiều domain phụ phức tạp
+@@||shopee.vn^
