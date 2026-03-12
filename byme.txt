@@ -45,11 +45,6 @@
 ! baomoi
 ||api.baomoi.com^
 
-! Shopee.vn
-||ubt.tracking.shopee.vn^
-||ubta.tracking.shopee.vn^
-||df.infra.sz.shopee.vn^
-
 ! wenjie623, danh sách quảng cáo các trang Trung Quốc (https://edge.bibica.net/#atk-comment-10358)
 ! https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 
