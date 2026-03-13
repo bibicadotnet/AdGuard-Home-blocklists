@@ -36,8 +36,3 @@
 @@||vlxx.ms^
 @@||click.mz.simba.taobao.com^
 @@||click.tz.simba.taobao.com^
-
-@@||dem.shopee.com^
-@@||ubt.tracking.shopee.vn^
-@@||ubta.tracking.shopee.vn^
-@@||df.infra.sz.shopee.vn^
