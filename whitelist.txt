@@ -37,3 +37,4 @@
 @@||click.mz.simba.taobao.com^
 @@||click.tz.simba.taobao.com^
 @@||preview.page.link^
+@@||cdn.perfops.net^
