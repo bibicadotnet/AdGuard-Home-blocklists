@@ -12,7 +12,6 @@
 ||ntp.msn.com^
 
 ! CocCoc Domains (chặn quảng cáo, theo dõi, update)
-||update.coccoc.com^
 ||afl.coccoc.com^
 ||afdk.coccoc.com^
 ||metrics.coccoc.com^
