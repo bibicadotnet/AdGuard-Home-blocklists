@@ -40,7 +40,7 @@
 @@||preview.page.link^
 @@||cdn.perfops.net^
 
-
+! Source: https://github.com/ShadowWhisperer/BlockLists/blob/master/Whitelists/Whitelist
 #####################################################
 # Antivirus
 #####################################################
