@@ -28,6 +28,9 @@
 # Trên Windows dùng Ublock ... chặn như thông thường
 @@||pagead2.googlesyndication.com^
 
+# Domain active Brave Origin (thêm vào cho chắc)
+@@||payment.rewards.brave.com^
+
 ! Trang bị chặn nhầm
 @@||umami.is^
 @@||controld.com^
