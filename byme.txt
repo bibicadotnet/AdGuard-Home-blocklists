@@ -25,6 +25,11 @@
 ||display.qc.coccoc.com^
 ||cdn2.cache.vn^
 
+! CatsXP Domains
+||collector.wdp.catsxp.com^
+||quorun.wdp.catsxp.com^
+||vip.123pan.cn^
+
 ! ROPHIM
 ||finallygotthexds.site^
 ||tx88.com^
