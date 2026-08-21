@@ -28,7 +28,6 @@
 ! CatsXP Domains
 ||collector.wdp.catsxp.com^
 ||quorun.wdp.catsxp.com^
-||vip.123pan.cn^
 
 ! ROPHIM
 ||finallygotthexds.site^
