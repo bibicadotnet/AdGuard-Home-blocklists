@@ -29,6 +29,12 @@
 ||collector.wdp.catsxp.com^
 ||quorun.wdp.catsxp.com^
 
+! MuMuPlayer Domains & Easebar Domains (https://bibica.net/mumuplayer-v5-no-ads-lightweight-highly-stable-ultra-hd/)
+||store-api.mumuglobal.com^
+||api.mumuglobal.com^
+||fcount-api.webapp.easebar.com^
+||sigma-agentlog-a11xxna.proxima.nie.easebar.com^
+
 ! ROPHIM
 ||finallygotthexds.site^
 ||tx88.com^
