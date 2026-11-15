@@ -1,4 +1,4 @@
-! Title: CocCoc & MSN Domains
+! Title: CocCoc, MSN & DNS Canary Domains
 ! Description: Chặn các domain CocCoc, MSN và 1 số trang cá nhân
 ! Version: 1.2
 ! Homepage: https://github.com/bibicadotnet/AdGuard-Home-blocklists
