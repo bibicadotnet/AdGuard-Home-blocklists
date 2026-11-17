@@ -7,6 +7,11 @@
 ||use-application-dns.net^
 ||mask.icloud.com^
 ||mask-h2.icloud.com^
+||mask-canary.icloud.com^
+||doh.dns.apple.com^
+||doh-dns-apple-com.v.aaplimg.com^
+||doh.dns.apple.com.v.aaplimg.com^
+||_dns.resolver.arpa^
 
 ! MSN Domain
 ||ntp.msn.com^
