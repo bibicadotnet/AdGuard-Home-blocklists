@@ -42,6 +42,8 @@
 @@||click.tz.simba.taobao.com^
 @@||preview.page.link^
 @@||cdn.perfops.net^
+@@||ip-api.com^
+@@||ipwho.is^
 
 ! Source: https://github.com/ShadowWhisperer/BlockLists/blob/master/Whitelists/Whitelist
 @@||my-win.avast.com^
