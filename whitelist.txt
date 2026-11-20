@@ -31,6 +31,9 @@
 # Domain active Brave Origin (thêm vào cho chắc)
 @@||payment.rewards.brave.com^
 
+# API chính thức của Windscribe (thêm vào cho chắc)
+@@||api.windscribe.com^
+
 ! Trang bị chặn nhầm
 @@||umami.is^
 @@||controld.com^
